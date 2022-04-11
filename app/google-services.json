@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627734085014",
+    "project_id": "promino-d5e91",
+    "storage_bucket": "promino-d5e91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627734085014:android:175b062bf17aad16e1f1b7",
+        "android_client_info": {
+          "package_name": "com.example.promino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627734085014-n7hhvqrg5d417idhemb7en510qkv8ppt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUXkMXfKEZ2p4C-1Km6eJv8dggnlQOuRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627734085014-n7hhvqrg5d417idhemb7en510qkv8ppt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
