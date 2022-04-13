@@ -57,6 +57,7 @@ public class uploadDealersData extends AppCompatActivity {
         Dealer.put("Name",name);
         Dealer.put("Email",mail);
         Dealer.put("Number", num);
+
         DB.collection("Dealers").add(Dealer).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
             @Override
             public void onSuccess(DocumentReference documentReference) {
