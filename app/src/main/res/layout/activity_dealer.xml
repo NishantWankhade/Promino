@@ -4,29 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/farmer_dealer_main_page"
     tools:context=".dealerActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="174dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/comic_neue_bold_italic"
+        android:gravity="center"
+        android:text="Upload Your Details "
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725" />
 
     <Button
         android:id="@+id/uploadDealer"
-        android:layout_width="158dp"
-        android:layout_height="72dp"
+        android:layout_width="188dp"
+        android:layout_height="103dp"
+        android:background="@drawable/rounded_view"
+        android:fontFamily="@font/comic_neue_bold_italic"
         android:text="Upload"
-        android:textSize="20sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchProductDealer" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
 
     <Button
         android:id="@+id/searchProductDealer"
-        android:layout_width="163dp"
-        android:layout_height="73dp"
+        android:layout_width="193dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/rounded_view"
+        android:fontFamily="@font/comic_neue_bold_italic"
         android:text="Search"
-        android:textSize="20sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/uploadDealer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="174dp"
+        android:layout_height="109dp"
+        android:fontFamily="@font/comic_neue_bold_italic"
+        android:gravity="center"
+        android:text="Search all the details of farmer. :)"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
 </androidx.constraintlayout.widget.ConstraintLayout>
