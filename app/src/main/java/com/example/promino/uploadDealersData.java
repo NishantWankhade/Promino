@@ -5,6 +5,7 @@ import static android.content.ContentValues.TAG;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -56,7 +57,6 @@ public class uploadDealersData extends AppCompatActivity {
         Dealer.put("Name",name);
         Dealer.put("Email",mail);
         Dealer.put("Number", num);
-
         DB.collection("Dealers").add(Dealer).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
             @Override
             public void onSuccess(DocumentReference documentReference) {
