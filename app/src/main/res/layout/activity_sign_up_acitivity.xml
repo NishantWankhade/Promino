@@ -66,7 +66,7 @@
         android:layout_height="94dp"
         android:background="@drawable/rounded_view"
         android:fontFamily="@font/amatica_sc_bold"
-        android:gravity="center"
+        android:gravity="center|center_horizontal"
         android:text="SIGNUP"
         android:textColor="#000000"
         android:textSize="64sp"
